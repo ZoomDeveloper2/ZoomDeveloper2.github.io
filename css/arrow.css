@@ -1,0 +1,56 @@
+.mouse_1, .mouse_2 {
+  position: absolute;
+  width: 2rem;
+  height: 3rem;
+  bottom: 5.75rem;
+  left: 50%;
+  margin-left: -1rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #3084e4;
+}
+
+.pin {
+  position: absolute;
+  width: 0.25rem;
+  height: 0.5rem;
+  left: 50%;
+  margin-left: -0.1rem;
+  top: 0.35rem;
+  border-radius: 0.125rem;
+  background-color: #3084e4;
+}
+
+.arrow_down span,
+.arrow_down span::before,
+.arrow_down span::after {
+  position: absolute;
+  width: 0.2rem;
+  height: 0.75rem;
+  left: 50%;
+  margin-left: -0.1rem;
+  bottom: 2.5rem;
+  background-color: #3084e4;
+  border-radius: 0.1rem 0.1rem 0px 0px;
+}
+
+.arrow_down span {
+  background-color: inherit;
+}
+
+.arrow_down span::before,
+.arrow_down span::after {
+  content: '';
+  display: block;
+}
+
+.arrow_down span::before {
+  right: 0.05rem;
+  transform: rotate(-45deg);
+  transform-origin: bottom;
+}
+
+.arrow_down span::after {
+  left: 0.05rem;
+  transform: rotate(45deg);
+  transform-origin: bottom;
+}

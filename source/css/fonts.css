@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Adderley-Bold';
+  src: url('../fonts/Adderley-Bold/Adderley-Bold.eot');
+  src: url('../fonts/Adderley-Bold/Adderley-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Adderley-Bold/Adderley-Bold.svg#Adderley-Bold') format('svg'),
+       url('../fonts/Adderley-Bold/Adderley-Bold.ttf') format('truetype'),
+       url('../fonts/Adderley-Bold/Adderley-Bold.woff') format('woff'),
+       url('../fonts/Adderley-Bold/Adderley-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

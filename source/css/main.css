@@ -1,0 +1,220 @@
+html {
+	font-size: 20px;
+}
+body {
+	margin: 0 auto;
+}
+a {
+	height: inherit;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	transition: 0.4s;
+}
+a:hover {
+	color: #000;
+	transition: 0.4s;
+}
+.col-auto, .col-6 {
+	padding: 0 !important;
+}
+.section_1, .section_2, .section, .block_1, .block_2, .servers {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.section {
+	background-image: url(../img/back.jpg);
+}
+.section_1 {
+	padding-top: 5rem;
+	background-image: url(../img/back-1.jpg);
+}
+.section_2 {
+	padding-top: 7.5rem;
+	background-image: url(../img/back-2.jpg);
+}
+
+p, .main_text, .sub_main_text, .small_main_text, .btn_text {
+	font-family: Adderley-Bold, sans-serif;
+	font-size: 0.8rem;
+	letter-spacing: 0.0125rem;
+	line-height: normal;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0 !important;
+	cursor: default;
+}
+.main_text, .sub_main_text {
+	font-size: 4.25rem;
+	letter-spacing: 0.025rem;
+	text-shadow: 0 0 0.5rem #000000;
+	text-transform: none;
+}
+.main_text {
+	line-height: 5.25rem;
+}
+.sub_main_text {
+	font-size: 3.4rem;
+}
+.small_main_text {
+	font-size: 2.05rem;
+	line-height: 1.5rem;
+	letter-spacing: 0.0315rem;
+	cursor: pointer;
+}
+.btn_text {
+	font-size: 1.05rem;
+	letter-spacing: 0.023rem;
+	line-height: 1.6rem;
+	cursor: pointer;
+}
+/*---------------------main style------------------------*/
+.h-100 {
+	height: 100%;
+}
+
+.logoMain {
+	width: 30.25rem; height: 19.25rem;
+}
+
+.logoMain img {
+	width: inherit; height: inherit;
+}
+
+.text, .pravila_btn p {
+	margin-top: 0.0125rem;
+}
+
+.servers {
+	width: 24.65rem;
+	height: 8.25rem;
+	background-image: url(../img/back-3.jpg);
+	background-attachment: scroll;
+}
+
+.darkrp {
+	margin-top: 1.75rem;
+	margin-bottom: 1.75rem;
+}
+.umbrella {
+	margin-top: 1.25rem;
+}
+
+.servers_info {
+	margin-left: 0.65rem;
+	margin-bottom: 0.7rem !important;
+}
+
+.servers_info h1 {
+	cursor: default;
+}
+
+.players {
+	margin: 0 1rem 0.35rem 0;
+	text-align: right;
+	font-size: 0.85rem;
+	letter-spacing: 0.0185rem;
+}
+
+.btn_1 {
+	width: 7rem; height: 1.6rem;
+	padding: 0;
+	margin: 0 1rem 1rem 0;
+	box-shadow: 0 0 0.5rem #e48930;
+	background-color: #e48930;
+	border: none;
+}
+
+.info_1 {
+ 	margin-left: 2.9rem;
+}
+.info_2 {
+	margin-left: 4.1rem;
+}
+
+.block_1 {
+	background-image: url(../img/info_1.jpg);
+	background-attachment: scroll;
+}
+.block_2 {
+	background-image: url(../img/info_2.jpg);
+	background-attachment: scroll;
+}
+.block_1, .block_2 {
+	width: 15.45rem; height: 22.85rem;
+	margin-top: 1.25rem;
+	box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.5);
+	background-repeat: no-repeat;
+ 	background-position: cover;
+}
+
+.btn_2 {
+	width: 15.45rem; height: 3rem;
+	margin-top: 1.5rem;
+	padding: 0;
+	background-color: #e48930;
+	box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.5);
+	border: none;
+}
+.btn_2 a {
+	line-height: 3rem;
+}
+/*-----------------------page_2-----------------------*/
+.team_text, .nickname, .mail, .posts {
+	font-family: Adderley-Bold, sans-serif;
+	margin: 0;
+	cursor: default;
+}
+
+.team_text {
+	font-size: 3.75rem;
+	letter-spacing: 0.0375rem;
+	color: #e48930;
+	text-shadow: 0 0 1.25rem #000000;
+}
+
+.contacts {
+	padding: 2.15rem 1.9rem 0 1.9rem;
+}
+
+.face {
+	width: 18.75rem; height: 18.75rem;
+	box-shadow: 0 0 1.25rem #000000;
+	border-radius: 50%;
+}
+
+.face img {
+	width: inherit; height: inherit;
+	border-radius: 50%;
+}
+
+.describe {
+	position: absolute;
+	text-align: center;
+	top: 96%;
+	right: 20%;
+	left: 17%;
+}
+
+.nickname {
+	font-size: 2.5rem;
+	letter-spacing: 0.025rem;
+	color: #fff;
+	line-height: 1.85rem;
+}
+
+.mail {
+	margin-top: 0.85rem;
+}
+
+.mail, .posts {
+	font-size: 1.25rem;
+	letter-spacing: 0.0125rem;
+	opacity: 0.75;
+	color: #e48930;
+}
+.posts {
+	margin-top: 0.85rem;
+	color: #fff;
+}
